@@ -11,7 +11,7 @@
  * - Formats output to match Django URL configuration syntax
  * 
  * Setup Instructions:
- * 1. Create a new folder for this script recommended but optional
+ * 1. Create a new folder for this script (recommended but optional)
  * 2. Save this file as "redirects.js" in that folder
  * 3. Download your website's sitemap.xml:
  *    - Visit your website's sitemap (typically at https://yourdomain.com/sitemap.xml)
@@ -27,7 +27,9 @@
  * 5. Open django_redirects.txt to see your formatted Django redirects
  * 
  * Requirements:
- * - Node.js installed (download from https://nodejs.org/)
+ * - Node.js must be installed either globally or via NVM
+ *   (download from https://nodejs.org/ or use NVM: https://github.com/nvm-sh/nvm)
+ * - No additional npm packages are required - this script uses only Node.js core modules
  * - Access to your website's sitemap.xml
  */
 
